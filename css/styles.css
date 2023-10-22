@@ -1,6 +1,10 @@
 #red-clouds {
 	background-image: url("../images/red-clouds.png");
 }
+#leaves-bkg{
+    background-image: url("../images/palm-branches-swaying.gif");
+    background-size: 50%;
+}
 /*Text Specific*/
 h1,h2,h3,h4{
   font-family: 'Chakra Petch', sans-serif;
@@ -26,7 +30,6 @@ h2{
 	width: 72%;
 	margin: 0 auto;
 	box-shadow: 0px 4px 30px 15px rgba(0, 0, 0, 1);
-    background-color: inherit;
     margin-top: 2%;
 }
 .page-pad{
@@ -62,7 +65,7 @@ h2{
     text-decoration: none;
     color: #ffffff;
     padding: 10px 20px;
-    background-color: #16161629; 
+    background-color: #1616166b; 
     border-radius: 5px;
     transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
 }
@@ -107,4 +110,24 @@ h2{
 }
 #Skills{
     padding-left: 5%;
+}
+/*Pg 2 exclusive*/
+#heading {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: 50px;
+    border-radius: 20px;
+}
+#large-page{
+    margin: 10px;
+	box-shadow: 0px 4px 30px 15px rgba(0, 0, 0, 1);
+    margin-top: 10px;
+    padding: 40px;
+
+}
+#img-padding{
+    margin-right: 15px;
 }
