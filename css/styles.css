@@ -1,7 +1,7 @@
 #red-clouds {
 	background-image: url("../images/red-clouds.png");
 }
-/*Fonts*/
+/*Text Specific*/
 h1,h2,h3,h4{
   font-family: 'Chakra Petch', sans-serif;
   font-family: 'Chakra Petch', sans-serif;
@@ -12,15 +12,25 @@ h1{
 h2{
   font-size: 2em;
 }
+.center {
+    text-align: center;
+}
+.stack-left{
+    float: left;
+}
+.stack-right{
+    float: right;
+}
 /*-----------------------------------------------*/
 #page-wrapper {
 	width: 72%;
 	margin: 0 auto;
 	box-shadow: 0px 4px 30px 15px rgba(0, 0, 0, 1);
-    background-color: #c0768d;
-    background-clip: padding-box;
-    padding: 20px;
+    background-color: inherit;
     margin-top: 2%;
+}
+.page-pad{
+    padding: 2%;
 }
 #main-navbar{
     background-color: #0000003b; 
@@ -37,6 +47,8 @@ h2{
     padding: 0; 
     float: left;  
     left: 50%; 
+    display: flex;
+    align-items: center;
 }
 #main-navbar ul li {
     position: relative;
@@ -63,3 +75,36 @@ h2{
     background-color: #c2c2c2;
     box-shadow: 3px 3px 6px 0px #ccdbe800 inset, -3px -3px 6px 1px rgba(81, 81, 81, 0.811) inset;
   }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* pg 1 exclusive*/
+#cinfo{
+    background-color: #952e4d5c; 
+}
+#cinfo ul li{
+    list-style-type: none; 
+    padding: 1%;
+    float: left;  
+    display: flex;
+    align-items: center;
+}
+#cinfo ul{
+    overflow: hidden;
+}
+#experience{
+    width: 50%;
+}
+#education{
+    background-color: #952e4d5c; 
+}
+#footer{
+    position: absolute;
+    right: 0%;
+}
+#Skills{
+    padding-left: 5%;
+}
