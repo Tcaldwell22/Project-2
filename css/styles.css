@@ -131,3 +131,22 @@ h2{
 #img-padding{
     margin-right: 15px;
 }
+#stages-padding{
+    padding: 15px;
+}
+#limit-width{
+    max-width: 800px;
+}
+.center-align{
+    display: flex;
+    align-items: center;
+}
+#support{
+    padding-right: 100px;
+}
+#footer-deccor {
+    background-image: url(../images/grassline.gif);
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+}
