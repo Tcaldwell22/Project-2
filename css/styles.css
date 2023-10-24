@@ -143,7 +143,7 @@ p, ul{
 #img-padding{
     margin-right: 15px;
 }
-#stages-padding{
+.stages-padding{
     padding: 15px;
 }
 #limit-width{
@@ -174,12 +174,12 @@ p, ul{
 .whitetxt{
     color: white;
 }
-#mv div {
+.mv div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#mv p{
+.mv div p{
     text-align: justify;
     max-width: 50%;
 }
