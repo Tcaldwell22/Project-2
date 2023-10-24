@@ -5,6 +5,13 @@
     background-image: url("../images/palm-branches-swaying.gif");
     background-size: 50%;
 }
+#cinema-bkg{
+    background-image: url("../images/wood.png");
+    background-size: 50%;
+}
+.red-curtains {
+	background-image: url("../images/red-curtains.png");
+}
 /*Text Specific*/
 h1,h2,h3,h4{
   font-family: 'Chakra Petch', sans-serif;
@@ -83,7 +90,9 @@ h2{
     clear: both;
     display: table;
 }
-
+#support100{
+    padding-right: 100px;
+}
 /* pg 1 exclusive*/
 #cinfo{
     background-color: #952e4d5c; 
@@ -141,12 +150,39 @@ h2{
     display: flex;
     align-items: center;
 }
-#support{
-    padding-right: 100px;
-}
 #footer-deccor {
     background-image: url(../images/grassline.gif);
     background-repeat: repeat-x;
     display: flex;
     justify-content: center;
+}
+/* Pg 3 exclusive*/
+#head-p3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#support2{
+    padding-right: 50px;
+}
+#mv1{
+    background: linear-gradient(180deg, #68371c 0%, rgb(155 107 81) 50%, #68371c 100%);
+}
+.whitetxt{
+    color: white;
+}
+.page-pad div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-pad p{
+    text-align: justify;
+    max-width: 50%;
+}
+#mv2{
+    background: linear-gradient(180deg, rgba(189,56,56,1) 0%, rgba(158,98,98,1) 100%);
+}
+#mv3 {
+    background: linear-gradient(0deg, rgb(29 232 129) 0%, rgba(10,112,62,1) 100%);
 }
