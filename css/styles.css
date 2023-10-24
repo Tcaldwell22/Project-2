@@ -140,13 +140,13 @@ p, ul{
     padding: 40px;
 
 }
-#img-padding{
+.img-padding{
     margin-right: 15px;
 }
 .stages-padding{
     padding: 15px;
 }
-#limit-width{
+.limit-width{
     max-width: 800px;
 }
 .center-align{
