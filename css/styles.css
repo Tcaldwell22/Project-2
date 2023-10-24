@@ -32,6 +32,9 @@ h2{
 .stack-right{
     float: right;
 }
+p, ul{
+    font-family: 'Poppins', sans-serif;
+}
 /*-----------------------------------------------*/
 #page-wrapper {
 	width: 72%;
@@ -171,12 +174,12 @@ h2{
 .whitetxt{
     color: white;
 }
-.page-pad div {
+#mv div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.page-pad p{
+#mv p{
     text-align: justify;
     max-width: 50%;
 }
