@@ -116,6 +116,31 @@ p, ul{
 #education{
     background-color: #952e4d5c; 
 }
+#education li{
+    padding-left: 25px;
+    list-style-type: none;
+    background: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+#education li ul li{
+    background: url(../images/reddot.svg);
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position-y: center;
+}
+#experience li{
+    list-style-type: none;
+    background: url(../images/reddot.svg);
+    padding: 10px 20px;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position-y: 17px;
+}
+#Skills li{
+    list-style-type: disclosure-closed;
+}
 #footer{
     position: absolute;
     right: 0%;
